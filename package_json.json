@@ -1,0 +1,29 @@
+{
+  "name": "autotest-project",
+  "version": "1.0.0",
+  "description": "Пример автотестов для интернет-магазина",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "jest",
+    "puppeteer"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^21.6.1",
+    "axios": "^1.6.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 30000,
+    "verbose": true
+  }
+}

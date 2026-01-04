@@ -1,0 +1,30 @@
+# Зависимости
+node_modules/
+package-lock.json
+yarn.lock
+
+# Результаты тестов
+coverage/
+test-report.html
+*.log
+
+# Скриншоты и видео тестов
+screenshots/
+videos/
+*.png
+*.mp4
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+.cache/
